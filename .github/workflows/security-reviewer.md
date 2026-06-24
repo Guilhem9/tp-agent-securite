@@ -9,7 +9,7 @@ permissions:
 
 engine:
   id: claude
-  model: "anthropic/claude-sonnet-4"
+  model: "anthropic/claude-sonnet-4.6"
   env:
     ANTHROPIC_BASE_URL: "https://openrouter.ai/api/v1"
     ANTHROPIC_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
